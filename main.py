@@ -19,4 +19,10 @@ second_name_l4 = name2.lower().count("e")
 
 sum_second_name = second_name_l1 + second_name_l2 + second_name_l3 + second_name_l4
 
-if sum_first_name and sum_second_name
+join_part1 = str(sum_first_name)
+join_part2 = str(sum_second_name)
+join_finish = (join_part1 + join_part2)
+
+join_convert = int(join_finish)
+
+print(join_finish)
