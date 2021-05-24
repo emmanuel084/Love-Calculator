@@ -30,13 +30,9 @@ join_finish = (join_part1 + join_part2)
 
 join_convert = int(join_finish)
 
-if join_convert <10:
+if join_convert <10 or join_convert >90:
   print(f"Your score is {join_convert}%, you go together like coke and mentos.")
-elif join_convert >90:
-  print(f"Your score is {join_convert}%, you go together like coke and mentos.")
-elif join_convert ==40:
-  print(f"Your score is {join_convert}%, you are alright together.")
-elif join_convert <=50:
+elif join_convert >=40 and join_convert <=50:
   print(f"Your score is {join_convert}%, you are alright together.")
 else:
   print(F"Your score is {join_convert}%.")
